@@ -1,0 +1,49 @@
+{
+  "name": "web-to-elementor",
+  "version": "1.0.0",
+  "description": "Batch-replicate user-supplied web pages into hand-editable Elementor pages with localized media and built-in three-device responsiveness.",
+  "agents": ["./agents/web-to-elementor.md"],
+  "skills": ["./skills/web-to-elementor-pipeline"],
+
+  "expertType": "agent",
+  "agentName": "web-to-elementor",
+
+  "displayName": {
+    "en": "PageSmith",
+    "zh": "页匠"
+  },
+  "profession": {
+    "en": "Webpage Replication - 2026-11-23 Edition",
+    "zh": "网页复刻26年11月23日版本"
+  },
+  "displayDescription": {
+    "en": "Batch-replicate web pages into hand-editable Elementor pages, localize images into the media library, and ship desktop/tablet/mobile responsive layouts in one pass.",
+    "zh": "把网页批量复刻成可手编的 Elementor 页面，图片入媒体库，一次做好电脑平板手机三端响应式。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "我把几个网页的 HTML 文件直接发给你（存在我自己的任意目录），复刻成 testdecor 里可手工编辑的 Elementor 页面，图片传媒体库，直接做好三端响应式",
+    "en": "I'll send you several web page HTML files straight from my own folders. Replicate them into hand-editable Elementor pages on testdecor, upload images to the media library, and make them responsive for desktop, tablet and mobile in one pass."
+  },
+  "plugin": "web-to-elementor",
+  "tags": [
+    { "en": "Webpage Replication", "zh": "网页复刻" },
+    { "en": "Elementor Page Building", "zh": "Elementor 建站" },
+    { "en": "Responsive Design", "zh": "响应式适配" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I'll send you several web page HTML files straight from my own folders. Replicate them into hand-editable Elementor pages on testdecor, upload images to the media library, and make them responsive for desktop, tablet and mobile in one pass.",
+      "zh": "我把几个网页的 HTML 文件直接发给你（存在我自己的任意目录），复刻成 testdecor 里可手工编辑的 Elementor 页面，图片传媒体库，直接做好三端响应式"
+    },
+    {
+      "en": "Turn these pages into new WordPress pages, but switch the target site to a new address I'll give you. Same one-pass responsive build.",
+      "zh": "把这几个网页做成新页面，目标站点换成我给你的新地址，同样一次做成响应式"
+    },
+    {
+      "en": "Check the batch of new pages on my site and verify there is no horizontal overflow on mobile, tablet or desktop.",
+      "zh": "检查我后台这批新页面的响应式，确认手机、平板、桌面三端都不横向溢出"
+    }
+  ]
+}
