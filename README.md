@@ -1,4 +1,15 @@
-# 页匠 · 网页复刻26年11月23日版本（web-to-elementor）
+# WorkBuddy 专家包合集（feiyucp）
+
+本仓库同时收录 **2 个** 专家包，一眼看全：
+
+| 专家 | 名称 | 位置 |
+|---|---|---|
+| 页匠 | 网页复刻26年11月23日版本 | 本仓库根目录（下方即完整说明） |
+| 博客文章复刻 | 博客文章复刻26年11月24日版本 | [`blog-to-elementor-20261124/`](./blog-to-elementor-20261124/) |
+
+---
+
+# 专家一：页匠 · 网页复刻26年11月23日版本（web-to-elementor）
 
 把你给的网页批量变成 WordPress 后台里**真人可以用 Elementor 手工编辑**的新页面：图片下载后上传媒体库，页面从第一版起就同时适配电脑、平板、手机三种设备。
 
@@ -61,3 +72,18 @@ C:\Users\Administrator\.workbuddy\plugins\marketplaces\my-experts\plugins\web-to
 ```bash
 python3 scripts/package_expert.py <expert-dir>
 ```
+
+---
+
+# 专家二：博客文章复刻26年11月24日版本（blog-to-elementor）
+
+把博客文章的网页 HTML 复刻成 WordPress 后台里**真人可以用 Elementor 手工编辑**的一篇**文章（post，不是页面）**：还原标题、**摘要（excerpt）**、发布日期、分类、标签、特色图片；图片上传媒体库；从第一版起就适配电脑 / 平板 / 手机三端。
+
+- **专家包目录**：[`blog-to-elementor-20261124/`](./blog-to-elementor-20261124/)
+- **完整说明**：[README.md](./blog-to-elementor-20261124/README.md)
+- **与页匠的区别**：页匠产出的是**页面（page）**，本专家产出的是**文章（post）**，并额外还原摘要 / 日期 / 分类 / 标签 / 特色图。
+- **2026-11-24 更新**：新增摘要（excerpt）必写流程——从源网页 `description` / `og:description` 取纯文本写入 WordPress `excerpt`，发布后回读复核；编辑器右侧不再空着 `Add an excerpt...`。
+
+## 怎么用
+
+WorkBuddy 左侧栏 **专家** → **我的专家** → 找到「博客文章复刻26年11月24日版本」→ 把博客文章的 `.html`（存任意目录即可）发进对话，说一句需求即可。
